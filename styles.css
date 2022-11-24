@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    letter-spacing: -1px;
+    background-color: black;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.flex-header{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    padding: 15px 190px 20px 190px;
+    background-color: #1F2937;
+    
+
+/*TOP HEADER*/
+}
+.flex-header-top{
+    display: flex;
+}
+.header-logo{
+    color: #F9FAF8; 
+    font-size: 24px;
+    font-weight: 900;   
+}
+.flex-ul {
+    margin-left: auto;
+}
+.flex-ul > ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 15px;     
+}
+
+/*BOTTOM HEADER*/
+
+.flex-header-bottom{
+    display: flex;
+    justify-content:space-between;
+    flex: 1;
+}
+
+.hero-main{
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    flex: 1;
+    margin-right: 34px;
+
+}
+.hero-main-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8; 
+
+}
+.hero-main-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+
+}
+.img-placeholder {
+    display: flex;
+    flex: 1;
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: gray;
+    
+    color: #e5e7eb;
+
+}
+.img-placeholder > div {
+    align-self: center;
+}
+button {
+    padding: 6px 20px 6px 20px ;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: none;
+}
+
+/*2d section - Information Section*/
+
+.information-container{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    background-color: white;
+    align-items: center;
+
+}
+.information-header{
+    padding: 40px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937
+}
+
+.information-box-container{
+    display: flex;
+    gap: 20px;
+}
+.box{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border: 3px solid blue;
+    border-radius: 15px;
+}
+
+/*3th section Inspiring quote*/
+
+.inspiring-quote-container{
+    display: flex;
+    height: 450px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    width: 800px;
+}
+.quote > p {
+    text-align: justify;
+    font-size: 36px;
+    font-style: italic;
+}
+.cite{
+    color: #1f2937;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    margin: 0px;
+}
+
+/* 4th section, the signup thing*/
+
+.section4-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+
+    background-color: #fff;
+    
+}
+.section4-box{
+    box-sizing: content-box  ;
+    display: flex;
+    align-items: center;
+    height: 9em;
+    width: 800px;
+    padding: 0 120px;
+    border-radius: 10px;
+    background-color: #3B82F6;
+}
+.section4-textarea{
+    display: flex;
+    flex-direction: column;
+}
+.boldtext > p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.button-container{
+    margin-left: auto;
+}
+button {
+    border: 2px solid;
+    border-radius: 10px;
+}
+.text > p {
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background-color: #1f2937;
+    color: #F9FAF8;    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
+
+                <figcaption>this is some subtext under an illustration or image</figcaption>
+
+*/
+
+
+
+
